@@ -20,5 +20,18 @@
 // import {arrowfunction} from './js/arrow-function';
 
 /* iteratory */
- import {iteratory} from './js/iteracja';
- import {generatory} from './js/generatory';
+ // import {iteratory} from './js/iteracja';
+ // import {generatory} from './js/generatory';
+
+ /* Klasy */
+// import {Klasy} from './js/klasy';
+/* Symbole */
+//import {Symbole} from './js/symbole';
+/* literały obiektowe */
+// import {literal} from './js/literaly-obiektowe';
+
+/* Promise */
+// import {promise} from './js/promise.js';
+
+/* Modules */
+import {module} from './js/module.js';

@@ -38,3 +38,22 @@ class Podklasa extends Klasa {
 }
 const podklasa = new Podklasa(23, "podklasa1", "kategoria1");
 console.log(`słowo extend rozszerza istniejącą klasę, w podklasie można korzystać z właściwości i metod klasy nadrzędnej. Słowo super() odnosi się do konstruktora klasy nadrzędnej  ${podklasa.getId()}`)
+
+
+
+// rozszerzanie klas
+class ArrayWithId extends Array {
+    constructor(id) {
+        super();
+        this.id = id;
+    }
+    // updateId(newId) {
+    //     this.id = newId;
+    // }
+}
+let arr = new ArrayWithId(23);
+arr.push("A");
+arr.push("B");
+arr.push("C");
+//arr.updateId(101);
+console.log(`rozszerzenie klasy Array o dodatkową właściwość z zachowaniem wszystkich metod i właściwośći oryginalnej klasy Array: ${arr}, lenght:${arr.length}`)

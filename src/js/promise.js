@@ -13,8 +13,8 @@ p.then(function (result) {
 
 // Przykład Promise.all()
 let p1 = new Promise((resolve, reject) => {
-    // resolve('OK 1')
-    reject("Błąd 1");
+     resolve('OK 1')
+    //reject("Błąd 1");
 });
 let p2 = new Promise((resolve, reject) => {
     resolve('OK 2')
@@ -31,8 +31,11 @@ Promise.all([p1, p2, p3]).then(results => {
 
 
 // API Fetch
-const image = document.querySelector('img');
-fetch('callback.png')
+const content = document.querySelector('.content');
+const image = document.createElement("IMG");
+content.appendChild(image);
+
+fetch('https://media.gettyimages.com/photos/closeup-of-snake-at-night-picture-id995459518')
     .then(function(response){
         return response.blob();
     }).then(function(blob){

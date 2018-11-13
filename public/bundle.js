@@ -70,8 +70,10 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_module_js__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_module_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__js_module_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_methods__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_methods___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__js_methods__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_regexp__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__js_regexp__);
 // /* setTimeOut problem z var, zamienić na let */
 // import {SetTimeout} from './js/setTimeOut';
 
@@ -108,11 +110,33 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // import {promise} from './js/promise.js';
 
 /* Modules */
+//import {module} from './js/module.js';
+
+/* Proxies */
+// import {proxies} from './js/proxies&reflection.js';
+
+/* Unicode */
+// import {Unicode} from './js/unicode';
+
+/* Arrays, TypedArrays, Math, Number, New Methods  */
+// import {TypedArrays} from './js/typedArray&Array';
+// import {Math} from './js/math';
+// import {number} from './js/number';
+
+
+/* Reg Exp */
 
 
 /***/ }),
 
-/***/ 73:
+/***/ 165:
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 166:
 /***/ (function(module, exports) {
 
 

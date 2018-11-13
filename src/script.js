@@ -34,4 +34,19 @@
 // import {promise} from './js/promise.js';
 
 /* Modules */
-import {module} from './js/module.js';
+//import {module} from './js/module.js';
+
+/* Proxies */
+// import {proxies} from './js/proxies&reflection.js';
+
+/* Unicode */
+// import {Unicode} from './js/unicode';
+
+/* Arrays, TypedArrays, Math, Number, New Methods  */
+// import {TypedArrays} from './js/typedArray&Array';
+// import {Math} from './js/math';
+// import {number} from './js/number';
+import {methods} from './js/methods';
+
+/* Reg Exp */
+import {regexp} from './js/regexp';

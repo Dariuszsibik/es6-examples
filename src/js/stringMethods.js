@@ -4,6 +4,8 @@ console.log(`Metoda endsWith() zwraca true/false, czy ${string} kończy się 201
 console.log(`Metoda startWith() zwraca true/false, czy ${string} zaczyna się ES? ${string.startsWith('ES')}`);
 console.log(`Metody sprawdzają też znaki na określonej pozycji czy ${string} na pozycji 1 ma S? ${string.startsWith('S', 1)}`);
 console.log(`Metoda repeat() powtarza określoną liczbę razy dany string, ${string} x 10 ${string.repeat(10)}`);
+console.log(`Metoda padStart(x, y) wydłuża ilośc znaków do x a puste miejsca uzupełnia y - ${string.padStart(10, 'X')}`)
+console.log(`Metoda padEnd(x, y) wydłuża ilośc znaków do x a puste miejsca uzupełnia y - ${string.padEnd(10, 'X')}`)
 
 let giftCard = {
     pierwsza: {
@@ -20,6 +22,9 @@ let giftCard = {
     }
 }
 
+console.log(`Metoda Object.values(obiekt) zwraca wylistowane właściwości obiektu - ${Object.values(giftCard.pierwsza)}`)
+console.log(`Metoda Object.entries(obiekt) zwraca tablice (klucz, wartość) właściwości obiektu - ${Object.entries(giftCard.pierwsza)}`)
+
 function createMarkup(product) {
     return `
 	<div class="product ${product.class}">
@@ -32,7 +37,7 @@ function createMarkup(product) {
 
 window.onload = function () {
     var content = document.querySelector(".content");
-    pierwszy = content.innerHTML =
+    content.innerHTML =
         createMarkup(giftCard.pierwsza)
     +   createMarkup(giftCard.druga)
 }

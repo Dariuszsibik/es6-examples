@@ -46,7 +46,10 @@
 // import {TypedArrays} from './js/typedArray&Array';
 // import {Math} from './js/math';
 // import {number} from './js/number';
-import {methods} from './js/methods';
+// import {assign} from './js/assign';
 
 /* Reg Exp */
-import {regexp} from './js/regexp';
+//import {regexp} from './js/regexp';
+
+/* async / await */
+import {asyncAwait} from './js/await-async';

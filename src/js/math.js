@@ -9,3 +9,6 @@ for ( let i of sign) {
 
 const l = 100;
 console.log(`logarytmy z liczby ${l}, logarytm Math.log10(): ${Math.log10(l)}, logarytm Math.log2(): ${Math.log2(l)}`)
+
+var number = 5;
+console.log(`podwójne gwiazdki podnoszą do potęgi, ${number}**3 = ${number**3}`)

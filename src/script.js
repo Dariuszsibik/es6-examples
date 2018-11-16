@@ -45,8 +45,8 @@
 /* Arrays, TypedArrays, Math, Number, New Methods  */
 // import {TypedArrays} from './js/typedArray&Array';
 // import {Math} from './js/math';
-// import {number} from './js/number';
-import {methods} from './js/methods';
+ import {number} from './js/number';
+// import {methods} from './js/methods';
 
 /* Reg Exp */
-import {regexp} from './js/regexp';
+// import {regexp} from './js/regexp';

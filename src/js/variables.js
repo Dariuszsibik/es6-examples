@@ -1,5 +1,3 @@
-//export const Variables = () => {
-
     function showOrderValue() {
         var orderValue = 100;
         if (orderValue >= 100) {
@@ -37,5 +35,3 @@
         console.log(" Przyład hoisting, wyświetlanie zmiennej przed jej przypisaniem wartośći, w przypadku funkcji nie wyświetla błędu")
         var y = 2;
     }
-
-//}

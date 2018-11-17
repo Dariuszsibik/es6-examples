@@ -9,6 +9,7 @@
 
 /* nowe metody String */
 // import {stringMethods} from './js/stringMethods';
+import {string} from './js/string';
 
 /* destructuring - wyciąganie wartośći z jakiegoś zestawu i przypisywanie do zmiennych*/
 // import {destructuring} from './js/destructurng';
@@ -52,4 +53,4 @@
 //import {regexp} from './js/regexp';
 
 /* async / await */
-import {asyncAwait} from './js/await-async';
+// import {asyncAwait} from './js/await-async';

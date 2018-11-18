@@ -9,7 +9,7 @@
 
 /* nowe metody String */
 // import {stringMethods} from './js/stringMethods';
-import {string} from './js/string';
+// import {string} from './js/string';
 
 /* destructuring - wyciąganie wartośći z jakiegoś zestawu i przypisywanie do zmiennych*/
 // import {destructuring} from './js/destructurng';
@@ -19,6 +19,7 @@ import {string} from './js/string';
 
 /* arrow function */
 // import {arrowfunction} from './js/arrow-function';
+// import {functionMethod} from './js/functionAndObject';
 
 /* iteratory */
  // import {iteratory} from './js/iteracja';
@@ -27,7 +28,7 @@ import {string} from './js/string';
  /* Klasy */
 // import {Klasy} from './js/klasy';
 /* Symbole */
-//import {Symbole} from './js/symbole';
+import {Symbole} from './js/symbole';
 /* literały obiektowe */
 // import {literal} from './js/literaly-obiektowe';
 
@@ -45,9 +46,11 @@ import {string} from './js/string';
 
 /* Arrays, TypedArrays, Math, Number, New Methods  */
 // import {TypedArrays} from './js/typedArray&Array';
-// import {Math} from './js/math';
+// import {array} from './js/array';
+
+/* number */
 // import {number} from './js/number';
-// import {assign} from './js/assign';
+// import {Math} from './js/math';
 
 /* Reg Exp */
 //import {regexp} from './js/regexp';

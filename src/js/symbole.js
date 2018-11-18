@@ -20,3 +20,5 @@ person[symbol] = '1321';
 console.log(`jeśli obiekt posiada właściwość jako symbol, nie możemy go iterować, dostęp do właściwości symbol obiektu: ${person[symbol]}`)
 console.log(`metoda getOwnPropertySymbols zwraca wszystkie symbole obiektu:`)
 console.log(Object.getOwnPropertySymbols(person))
+
+console.log(typeof symbol)

@@ -48,3 +48,40 @@ console.log("-------match()--------")
 var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 var regexp = /[A-E]/gi;
 console.log(str.match(regexp)); // ['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c', 'd', 'e']
+
+console.log("-------charAt()--------")
+var anyString="testowy string d ometody charAt";
+console.log("Znakiem o indeksie 0   jest '" + anyString.charAt(0)   + "'");
+console.log("Znakiem o indeksie 1   jest '" + anyString.charAt(1)   + "'");
+console.log("Znakiem o indeksie 2   jest '" + anyString.charAt(2)   + "'");
+console.log("Znakiem o indeksie 3   jest '" + anyString.charAt(3)   + "'");
+console.log("Znakiem o indeksie 4   jest '" + anyString.charAt(4)   + "'");
+console.log("Znakiem o indeksie 999 jest '" + anyString.charAt(999) + "'");
+
+console.log("-------charCodeAt()--------")
+var anyString="testowy string d ometody charCodeAt";
+console.log("Znakiem o indeksie 0   jest '" + anyString.charCodeAt(0)   + "'");
+console.log("Znakiem o indeksie 1   jest '" + anyString.charCodeAt(1)   + "'");
+console.log("Znakiem o indeksie 2   jest '" + anyString.charCodeAt(2)   + "'");
+console.log("Znakiem o indeksie 3   jest '" + anyString.charCodeAt(3)   + "'");
+console.log("Znakiem o indeksie 4   jest '" + anyString.charCodeAt(4)   + "'");
+console.log("Znakiem o indeksie 999 jest '" + anyString.charCodeAt(999) + "'");
+
+console.log("-------concat()--------")
+var anyString="testowy";
+var anyString1="string";
+var anyString2="metody";
+var anyString3="concat";
+console.log(String.concat(anyString, anyString1, anyString2, anyString3))
+
+console.log("-------startWith()--------")
+var str = 'To be, or not to be, that is the question.';
+console.log(str.startsWith('To be'));         // true
+console.log(str.startsWith('not to be'));     // false
+console.log(str.startsWith('not to be', 10)); // true
+
+console.log("-------padStart(), padEnd()--------")
+const str1 = 'testowy string';
+console.log(str1.padStart(25, '.'));  // ...........testowy string
+console.log(str1.padEnd(25, '.'));  // testowy string...........
+
